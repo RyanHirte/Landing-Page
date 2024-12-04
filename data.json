@@ -1,16 +1,16 @@
 {
-"myLinks": [
+  "myLinks": [
     {
-    "name": "GitHub",
-    "url": "https://github.com/username"
+      "name": "GitHub",
+      "url": "https://github.com/RyanHirte"
     },
     {
-    "name": "CodePen",
-    "url": "https://codepen.io/username"
+      "name": "CodePen",
+      "url": "https://codepen.io/RyanHirte"
     },
     {
-    "name": "LinkedIn",
-    "url": "https://www.linkedin.com"
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ryan-hirte-2b496030a/"
     }
-    ]
+  ]
 }
