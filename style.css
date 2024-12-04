@@ -1,16 +1,33 @@
 /* Have fun. This is your site. */
 
 body {
-  background: lightgray;
+  background-image: url("bg-image.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure body takes full viewport height */
+  margin: 0; /* Remove default margin */
 }
 
 /* Main Container */
 main {
   width: 100%;
-  /* centers container to page */
-  margin-inline: auto;
-  
-  /* adjust to your design */
-  max-width: 40em;
+  max-width: 60em;
+  background: tan;
+  padding: 3em;
+  box-sizing: border-box;
+  border-radius: 2em;
+}
 
+img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  border: 5px solid black;
 }
