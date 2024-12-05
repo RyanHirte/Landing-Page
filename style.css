@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,4 +71,34 @@ a:hover {
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  .text {
+    margin-right: 1em;
+  }
+
+  a {
+    width: auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
