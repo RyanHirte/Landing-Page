@@ -4,3 +4,4 @@
 
 ## Sources
 * Background image from https://www.pexels.com/
+* Template from https://github.com/ewuweblab/landing-page-starter-pwa-json
